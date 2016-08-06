@@ -8,7 +8,7 @@ Assignment 4 - Weather Widget using JavaScript and jQuery<br />
 - Kenneth Tran
 
 ## Demo
-You can demo our weather widget by simply opening the demo.html webpage file included!<br />
+You can demo our weather widget by simply opening the index.html webpage file included!<br />
 (Windows XP visuals are just for special effects, and are separate from the actual weather widget!).
 
 ## Installation
