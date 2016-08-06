@@ -74,4 +74,4 @@ To install our weather widget on your website:
   <div id="widget"></div>
   ```
   Explanation of above code
-  - Required to load the weather widget onto the webpage.
+  - Required to load the weather widget onto the webpage
