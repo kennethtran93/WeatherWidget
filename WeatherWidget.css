@@ -1,0 +1,162 @@
+.clear {
+	clear: both;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+#inline {
+	display: inline;
+}
+
+#containment-wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+#widget {
+	margin: 0;
+	font-family: Arial;
+	color: white;
+	z-index: 99;
+}
+
+#widget-box {
+	display: none;
+	cursor: move; /* Use the 4-way arrow to indicate movable widget */
+	padding: 10px;
+	border: 1px;
+	border-style: solid;
+	width: 350px;
+	height: 200px;
+	color: white;
+	z-index: 99;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background-color: gray;
+}
+
+#widget-head {
+	float: left;
+	font-size: 1.5em;
+	text-shadow: 2px 2px 2px #000;
+}
+
+#noData p {
+	font-size: 2em;
+	margin: 0;
+}
+
+#widget-footer {
+	margin-top: 10px;
+	font-size: 0.75em;
+	background-color: #ffffff;
+	border-radius: 20px;
+	opacity: 0.8;
+}
+#widget-footer p {
+	padding-left: 20px;
+	margin: 0;
+	color: black;
+}
+
+#widget-credits a {
+	color: black;
+}
+
+#city, #temp-head {
+	float: left;
+
+}
+
+#text {
+	margin-top: 10px;
+}
+
+#info {
+	width: 125px;
+	float: left;
+	margin-left: 10px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#info img {
+	padding-left: 10px;
+	transform:scale(1.5, 1.5);
+	transform-origin: 0 0;
+}
+
+#more-info {
+	font-size: 1.1em;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#weather {
+	padding-left: 10px;
+	font-size: 1.25em;
+	text-shadow: 1.5px 1.5px 1.5px #000;
+}
+
+#load {
+	text-align: center;
+	padding-top: 15px;
+}
+
+#loading {
+	width: 128px;
+	height: 128px;
+}
+
+.button {
+	float: right;
+}
+
+.detail {
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+}
+
+.detail, .refresh-button{
+	margin-left: 5px;
+	background: #3498db;
+	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+}
+
+.detail:hover, .refresh-button:hover {
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
+}
+
+#detail, #detail:hover, #refreshing, #refreshing:hover {
+	margin-left: 5px;
+	background: #d93434;
+	background-image: -webkit-linear-gradient(top, #d93434, #b82b2b);
+	background-image: -moz-linear-gradient(top, #d93434, #b82b2b);
+	background-image: -ms-linear-gradient(top, #d93434, #b82b2b);
+	background-image: -o-linear-gradient(top, #d93434, #b82b2b);
+	background-image: linear-gradient(to bottom, #d93434, #b82b2b);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+}
