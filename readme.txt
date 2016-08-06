@@ -5,7 +5,7 @@ ACIT 1620 - Web Development
 Assignment 4 - Weather Widget using JavaScript and jQuery
 By: Yoseph Jo and Kenneth Tran
 
-You can demo our weather widget by simply opening the demo.html webpage file included! (Windows XP visuals are just for special effects, and are separate from the actual weather widget!).
+You can demo our weather widget by simply opening the index.html webpage file included! (Windows XP visuals are just for special effects, and are separate from the actual weather widget!).
 
 To install our weather widget on your website:
 
