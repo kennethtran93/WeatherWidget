@@ -2,6 +2,9 @@
 Weather Widget for websites<br />
 ACIT 1620 - Web Development<br />
 Assignment 4 - Weather Widget using JavaScript and jQuery<br />
+<br />
+Please note:<br />
+OpenWeatherMap.org's API has changed since the completion of this widget, which has made this widget non-functional.
 
 ## Team
 - Yoseph Jo
