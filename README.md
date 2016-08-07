@@ -61,15 +61,15 @@ To install our weather widget on your website:
   ```
   
   > - Note:  if your server has *https* enabled and/or required, you will need to manually have the momentjs files inside your server to avoid fetching from an unsecured site.
-  > - You can either get the file directly from their site:
-  >    - http://momentjs.com/downloads/moment.js
-  >    - http://momentjs.com/downloads/moment-timezone-with-data.js
-  > - Or you can use the files includes in this repo:
-  >    - [`moment.js`](js/moment.js)
-  >    - [`moment-timezone-with-data.js`](js/moment-timezone-with-data.js)
-  > - Put the files in your `JavaScript` folder, and replace the above two script codes with the following:
-  >    - `<script src="js/moment.js"></script>`
-  >    - `<script src="js/moment-timezone-with-data.js"></script>`
+  >    - You can either get the file directly from their site:
+  >      - http://momentjs.com/downloads/moment.js
+  >      - http://momentjs.com/downloads/moment-timezone-with-data.js
+  >    - Or you can use the files includes in this repo:
+  >      - [`moment.js`](js/moment.js)
+  >      - [`moment-timezone-with-data.js`](js/moment-timezone-with-data.js)
+  >    - Put the files in your `JavaScript` folder, and replace the above two script codes with the following:
+  >      - `<script src="js/moment.js"></script>`
+  >      - `<script src="js/moment-timezone-with-data.js"></script>`
   
   - To setup the moment timezone conversion
   ```html
