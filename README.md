@@ -17,11 +17,11 @@ You can demo our weather widget by simply opening the index.html webpage file in
 ## Installation
 To install our weather widget on your website:
 
-1. Place the following file into your `JS/JavaScript` folder (from our `js` folder):
-  - `WeatherWidget.js`
+1. Place the following file into your `JavaScript` folder (from our `js` folder):
+  - [`WeatherWidget.js`](js/WeatherWidget.js)
 
-2. Place the following file into your `CSS/Styles` folder (from our `css` folder):
-  - `WeatherWidget.css`
+2. Place the following file into your `Styles` folder (from our `css` folder):
+  - [`WeatherWidget.css`](css/WeatherWidget.css)
 
 3. Copy and paste the following into the `<head>` section your webpage(s).<br />
   *Change the folder names (Style, JavaScript) to whatever your folder names are:*
@@ -59,13 +59,25 @@ To install our weather widget on your website:
   ```html
   <script src="http://momentjs.com/downloads/moment-timezone-with-data.js"></script>
   ```
+  
+  > - Note:  if your server has *https* enabled and/or required, you will need to manually have the momentjs files inside your server to avoid fetching from an unsecured site.
+  > - You can either get the file directly from their site:
+  >    - http://momentjs.com/downloads/moment.js
+  >    - http://momentjs.com/downloads/moment-timezone-with-data.js
+  > - Or you can use the files includes in this repo:
+  >    - [`moment.js`](js/moment.js)
+  >    - [`moment-timezone-with-data.js`](js/moment-timezone-with-data.js)
+  > - Put the files in your `JavaScript` folder, and replace the above two script codes with the following:
+  >    - `<script src="js/moment.js"></script>`
+  >    - `<script src="js/moment-timezone-with-data.js"></script>`
+  
   - To setup the moment timezone conversion
   ```html
   <script>
       moment().format();
   </script>
   ```
-  - The javaScripts required for the Weather Widget to function
+  - The JavaScripts required for the Weather Widget to function
   ```html
   <script src="js/WeatherWidget.js"></script>
   ```
